@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matsuo</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__titulo">Matsuo <i class="fa-brands fa-js"></i></h1>
+
+        <ul class="header__lista">
+            <li class="header__lista__item">
+                <a class="lista__link" href="#" id="inicio">Início</a>
+            </li>
+            <li class="header__lista__item">
+                <a class="lista__link" href="#" id="inicio">Sobre</a>
+            </li>
+            <li class="header__lista__item">
+                <a class="lista__link" href="#" id="inicio">Habilidades</a>
+            </li>
+            <li class="header__lista__item">
+                <a class="lista__link" href="#" id="inicio">Projetos</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="inicio" id="início">
+            <div class="apresenta">
+                <p class="apresenta__p">Olá, eu sou</p>
+                <h1 class="apresenta__nome">Marcos Matsuo</h1>
+                <p class="apresenta__fun">Desenvolvedor Front-End</p>
+                <div class="inicio__ancoras">
+                    <a class="inicio__link" href="https://www.linkedin.com/in/marcos-matsuo-b782a7264/" target="_blank" rel="noopener noreferrer">Linked<i class="fa-brands fa-linkedin"></i></a>
+                    <a class="inicio__link" href="https://github.com/MarcMatsuo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+                </div>
+            </div>
+            <img class="inicio__gif" src="./img/gato.gif" alt="Gato tecnológico fofo">
+        </section>
+        <section class="sobre" id="sobre">
+            <h2 class="habilidades__titulo">Sobre mim</h2>
+            <div class="sobre__conteudo">
+                <img class="sobre__foto"src="./img/eu.jpeg" alt="Uma foto minha :)">
+                <p class="sobre__texto">Bem vindo! Meu nome é Marcos Monção Matsuo 
+                e sou um desenvolvedor Front-end. Estou envolvido com programação desde os 12 anos de idade e mais recentemente 
+                venho estudando Front-end, no qual me interessei instantaneamente.<br><br> Possuo ampla experiência em desenvolvimento web, 
+                possuindo certificado de qualificação profissional obtido durante meu ensino médio com técnico integrado. 
+                Além de ter uma quantidade considerável de prática em projetos reais.<br><br>Acredito que a constância e a disciplina
+                são os aspectos mais importantes para evoluir e por isso sigo essa filosofia na minha vida, estudo e trabalho, para um dia
+                atingir minha meta de me tornar Full-stack.<br><br>Agradeço a sua visita e espero vê-lo novamente em breve!</p>
+            </div>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades__titulo">Minhas habilidades</h2>
+            <div class="habilidades__conteudo">
+                <span class="habilidades__conteudo__titulo">Possuo domínio: </span>
+                <ul class="habilidades__lista">
+                    <li class="habilidades__lista__item">
+                        <i class="fa-brands fa-html5 habilidades__icone"></i>
+                        <span>HTML5</span>
+                    </li>
+                    <li class="habilidades__lista__item">
+                        <i class="fa-brands fa-css3-alt habilidades__icone"></i>
+                        <span>CSS3</span>
+                    </li>
+                    <li class="habilidades__lista__item">
+                        <i class="fa-brands fa-js habilidades__icone"></i>
+                        <span>Javascript</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="habilidades__conteudo">
+                <span class="habilidades__conteudo__titulo">Possuo familiaridade: </span>
+                <ul class="habilidades__lista">
+                    <li class="habilidades__lista__item">
+                        <img class="habilidades__icone" src="./img/typescript.png">
+                        <span>Typescript</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <h2 class="habilidades__titulo">Projetos</h2>
+            <div class="habilidades__conteudo">
+                <ul class="habilidades__lista">
+                    <li class="habilidades__lista__item item__projetos">
+                        <i class="fa-solid fa-microphone habilidades__icone"></i>
+                        <span class="projeto__nome">Numero secreto</span>
+                        <p class="projeto__descrito">Site com interface simples conectado a API de reconhecimento de voz Web Speech API.</p>
+                        <a href="https://jogo-numero-secreto-marcmatsuo.vercel.app/" target="_blank" rel="noopener noreferrer" class="link__projeto">Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </li>
+                    <li class="habilidades__lista__item item__projetos">
+                        <img src="./img/Logo.svg" alt="">
+                        <span class="projeto__nome">Alura Books</span>
+                        <p class="projeto__descrito">Exemplo de E-commerce responsivo.</p>
+                        <a href="https://alura-books-orcin.vercel.app/" target="_blank" rel="noopener noreferrer" class="link__projeto">Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </li>
+                    <li class="habilidades__lista__item item__projetos">
+                        <img src="./img/logoAluraPlus.svg" alt="">
+                        <span class="projeto__nome">Alura+</span>
+                        <p class="projeto__descrito">Exemplo de landing page simples.</p>
+                        <a href="https://alura-plus-drab-eta.vercel.app/" target="_blank" rel="noopener noreferrer" class="link__projeto">Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <span class="projeto__git">
+                Veja mais em: 
+                <a class="inicio__link github" href="https://github.com/MarcMatsuo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a>
+            </span>
+        </section>
+        <footer>
+            <p>Contato: mmatsuo460@gmail.com</p>
+            <p>Desenvolvido por Marcos Matsuo</p>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

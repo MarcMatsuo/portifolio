@@ -1,0 +1,75 @@
+.projetos{
+    padding: 6em 0 3em 0;
+    gap: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades__lista{
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.item__projetos{
+    width: 18rem;
+    height: 20rem;
+    padding: 1em;
+
+    border: 5px solid white;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item__projetos img{
+    height: 120px;
+}
+
+.projeto__nome{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projeto__descrito{
+    font-style: italic;
+}
+
+.link__projeto{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 16px;
+
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 1em;
+
+    transition: 0.5s;
+}
+
+.link__projeto:hover{
+    background-color: white;
+    color: black;
+}
+
+.projeto__git{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    gap: 1em;
+
+    font-weight: bold;
+}
+
+.github:hover{
+    background-color: white !important;
+    color: black !important;
+}
