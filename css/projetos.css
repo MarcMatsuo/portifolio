@@ -24,10 +24,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .item__projetos img{
     height: 120px;
+    width: fit-content;
+    
 }
 
 .projeto__nome{
