@@ -1,0 +1,91 @@
+.inicio{
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresenta{
+    padding: 2em 0 0 5em;
+}
+
+.apresenta__p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.apresenta__nome{
+    font-size: 60px;
+
+    padding: 1rem 0;
+
+    animation: mudaCor 4s linear infinite;
+}
+
+@keyframes mudaCor {
+    0%{
+        color: white;
+    }
+
+    33%{
+        color: purple;
+    }
+
+    66%{
+        color: green;
+    }
+}
+
+.apresenta__fun{
+    font-size: 20px;
+    font-style: italic !important;
+}
+
+.inicio__ancoras{
+    padding: 2.5em 0;
+}
+
+.inicio__link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 2px solid white;
+
+    padding: 0.8em;
+
+    transition: 0.5s;
+}
+
+.inicio__link:hover{
+    background-color: white;
+    color: black;
+}
+
+.inicio__link:nth-child(1):hover{
+    color: #0a66c2;
+}
+
+.inicio__gif{
+    width: 30%;
+    padding-top: 4em;
+}
+
+@media (max-width: 525px){
+    .apresenta{
+        justify-content: center;
+    }
+
+    .inicio__ancoras{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 1em;
+    }
+
+    .inicio__gif{
+        display: none;
+    }
+}

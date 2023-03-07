@@ -1,0 +1,29 @@
+.header{
+    background-color: var(--header-background);
+    position: fixed;
+    width: 100%;
+
+    z-index: 9999;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 1em;
+}
+
+.header__titulo{
+    font-size: 3.7vw;
+}
+
+.header__lista{
+    display: flex;
+    gap: 2em;
+}
+
+.lista__link{
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+
+    font-size: 1.9vw;
+}

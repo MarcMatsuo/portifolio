@@ -1,0 +1,35 @@
+@import url('./header.css');
+@import url('./inicio.css');
+@import url('./sobre.css');
+@import url('./habilidades.css');
+@import url('./projetos.css');
+
+:root{
+    --cor-fonte-principal: #FFFFFF;
+    --background: #222831;
+    --header-background: #393E46;
+
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+body{
+    color: var(--cor-fonte-principal);
+    background-color: var(--background);
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--header-background);
+    padding: 1em;
+
+    gap: 1em;
+}
+
+footer p{
+    font-size: 18px;
+    font-style: italic;
+}

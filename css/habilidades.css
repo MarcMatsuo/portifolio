@@ -1,0 +1,83 @@
+.habilidades{
+    height: 60vh;
+    width: 100%;
+
+    gap: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades__titulo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.habilidades__conteudo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1em;
+}
+
+.habilidades__conteudo__titulo{
+    font-size: 20px;
+    font-style: italic;
+
+    margin-top: 1em;
+}
+
+.habilidades__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 4em;
+}
+
+.habilidades__lista__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades__icone{
+    font-size: 120px;
+
+    margin-bottom: 0.5rem;
+}
+
+.habilidades__lista__item img{ /*ICONE DAS TECNOLOGIAS EM IMAGEM(Não possuem ícones no font awesome)*/
+    height: 100px;
+    border-radius: 12px;
+}
+
+.habilidades__lista__item span{
+    font-weight: bold;
+}
+
+.fa-css3-alt{
+    color: #264de4;
+}
+
+.fa-html5{
+    color: #e34c26;
+}
+
+.fa-js{
+    color: #e8c012;
+}
+
+@media (max-width: 412px){
+    .habilidades{
+        margin-bottom: 6em;
+    }
+}
+
+@media (max-width: 245px){
+    .habilidades{
+        margin-bottom: 15em;
+    }
+}
